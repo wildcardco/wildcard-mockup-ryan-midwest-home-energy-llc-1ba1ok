@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    {
+      "url": "https://images.unsplash.com/photo-1553969536-7abe08c6132d?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Brown wooden attic space ready for insulation work"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1711375211760-117f793d1f15?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Contractor working on the floor in an attic installing insulation"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1674485190969-4347f72aad0e?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Insulation contractor in white coveralls applying spray foam to a wall"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1674485169641-bcb2bf6f1df9?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Technician in protective coveralls spray-applying insulation foam to a roof"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1674485127842-7b63ac41db8c?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Insulation worker in coveralls spraying foam insulation on a brick wall"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1720631618132-83cdab1b237e?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Finished attic room with slanted insulated ceiling"
+    }
+  ],
+  "source": "ai_search"
+}
