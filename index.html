@@ -212,6 +212,24 @@
     font-family:'Merriweather', serif;
   }
 
+  /* Hero image */
+  .hero-image{
+    width:100%;
+    border-radius:var(--radius);
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    border:1px solid rgba(255,255,255,0.18);
+  }
+  .hero-image img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+  }
+  @media(min-width:800px){
+    .hero-image img{height:340px;}
+  }
+
   /* Sections */
   section{
     padding:70px 0;
@@ -249,10 +267,18 @@
     border-radius:var(--radius);
     padding:26px;
     transition:box-shadow 0.2s ease, transform 0.2s ease;
+    overflow:hidden;
   }
   .service-card:hover{
     box-shadow:var(--shadow);
     transform:translateY(-4px);
+  }
+  .service-img{
+    width:calc(100% + 52px);
+    margin:-26px -26px 18px;
+    height:150px;
+    object-fit:cover;
+    display:block;
   }
   .service-icon{
     width:46px;
@@ -314,6 +340,18 @@
   .about-text h2{font-size:1.9rem;}
   .about-text p{color:var(--navy-dark);}
   .about-text .gray{color:var(--gray);}
+  .about-image{
+    border-radius:var(--radius);
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    margin-bottom:20px;
+  }
+  .about-image img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
+  }
 
   @media(min-width:860px){
     .about-inner{
@@ -536,6 +574,9 @@
         </a>
         <a href="#contact" class="btn btn-outline">Request a Free Assessment</a>
       </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1553969536-7abe08c6132d?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Attic insulation work in a Northwest Indiana home">
+      </div>
       <div class="hero-facts">
         <div class="hero-fact"><strong>Griffith, IN</strong>Based &amp; serving Northwest Indiana</div>
         <div class="hero-fact"><strong>Attic &amp; Wall</strong>Insulation installation</div>
@@ -556,6 +597,7 @@
       <div class="service-grid">
 
         <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1674485190969-4347f72aad0e?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Attic insulation installation">
           <div class="service-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12L12 4L21 12" stroke="#fff" stroke-width="1.8"/><path d="M6 10V20H18V10" stroke="#fff" stroke-width="1.8"/></svg>
           </div>
@@ -564,6 +606,7 @@
         </div>
 
         <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1674485169641-bcb2bf6f1df9?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Wall insulation installation">
           <div class="service-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" stroke="#fff" stroke-width="1.8"/><path d="M4 10H20M10 4V20" stroke="#fff" stroke-width="1.8"/></svg>
           </div>
@@ -572,6 +615,7 @@
         </div>
 
         <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1674485127842-7b63ac41db8c?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Spray foam and blown-in insulation material">
           <div class="service-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C12 2 6 9 6 14C6 17.3 8.7 20 12 20C15.3 20 18 17.3 18 14C18 9 12 2 12 2Z" stroke="#fff" stroke-width="1.8"/></svg>
           </div>
@@ -580,6 +624,7 @@
         </div>
 
         <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1720631618132-83cdab1b237e?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Home energy efficiency assessment being performed">
           <div class="service-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="1.8"/><path d="M12 7V12L15 15" stroke="#fff" stroke-width="1.8"/></svg>
           </div>
@@ -613,6 +658,9 @@
       <div class="about-text">
         <span class="eyebrow">About Us</span>
         <h2>A Local, Direct Approach to Home Comfort</h2>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1711375211760-117f793d1f15?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Midwest Home Energy team working in a Griffith, IN home">
+        </div>
         <p>Midwest Home Energy LLC is based right here in Griffith, Indiana. We focus specifically on residential insulation and energy efficiency — not a little bit of everything, just this, done carefully.</p>
         <p class="gray">Because we're a local, owner-operator business, you're getting straightforward answers and direct communication about your home's insulation needs, not a call center. We take the time to explain what we find during an assessment and what your options are before any work starts.</p>
       </div>
